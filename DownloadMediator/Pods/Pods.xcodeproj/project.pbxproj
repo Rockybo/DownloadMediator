@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17B77F710E4EB7D74DC3BBFB0F00959F /* Pods-DownloadMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DDED29084BD2B77A91FB741A7286A1 /* Pods-DownloadMediator-dummy.m */; };
+		17B77F710E4EB7D74DC3BBFB0F00959F /* Pods-DownloadMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E204E4DEAFD1CDB4F19611F61029B /* Pods-DownloadMediator-dummy.m */; };
 		25368FB67512F45D5F8AA7B578B488E6 /* FileOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 800242771EA0C22B8BA5036BEFD42C36 /* FileOperationManager.m */; };
 		28FEA1180B65BC0A26ECF4CCAC34341F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2A352C1D189B0C6D7496F3C3B7A83A50 /* DownloadLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D4A3DDDC59D81BA84476CE2EFD165F /* DownloadLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A352C1D189B0C6D7496F3C3B7A83A50 /* DownloadLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8E43F1253940DC4B0161BCB4DB6AFD /* DownloadLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46EA202A539635103BBE84C3576D8D4B /* NSString+string.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC8D33AF8A8BDC67313E851883E7301 /* NSString+string.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47A179EA69B704EE9FCBC52B7DEB38B7 /* DownloadLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97443EE237BCBC22A5BADFBE3BE80AEE /* DownloadLib-dummy.m */; };
-		5E951F02A48A06D49B263D62DF3BCE91 /* Pods-DownloadMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5025785F9AB7B3FF279F6EAB5F4EA44 /* Pods-DownloadMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A179EA69B704EE9FCBC52B7DEB38B7 /* DownloadLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A27DA7B037D0CED0AD51440D0984B31 /* DownloadLib-dummy.m */; };
+		5E951F02A48A06D49B263D62DF3BCE91 /* Pods-DownloadMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 590F2415FAB67EEB3D0CF80DC1FDD63E /* Pods-DownloadMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		635DF3BEA9E34AD8AF461682612D95D9 /* FileOperationTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B2C4F53FBAB546A938CACC43318635 /* FileOperationTask.m */; };
 		9D2D7E8CD40177FAD8E0C98E8691D069 /* NSString+string.m in Sources */ = {isa = PBXBuildFile; fileRef = 5391BFD0E51BBC64C21C6062D814241B /* NSString+string.m */; };
 		A183DEE0AC7AB3C959E45321B759DF69 /* FileOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5BCBCC44789FE4E02C1DE800DAA283 /* FileOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,36 +36,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017670905D864B60D22574B646DC7A0A /* Pods-DownloadMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadMediator.release.xcconfig"; sourceTree = "<group>"; };
 		06FC378075E0C63ACAFB419FB8BD8850 /* FileOperationTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileOperationTask.h; path = DownloadLib/Classes/FileOperationTask.h; sourceTree = "<group>"; };
-		0901E0C01D5816D4C8A01C3E0F2FE0F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		272293E87AEE037AC801251467742F31 /* DownloadLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownloadLib.xcconfig; sourceTree = "<group>"; };
+		077202A0BC4F0A3EC01572A8F9A16A75 /* Pods-DownloadMediator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadMediator-frameworks.sh"; sourceTree = "<group>"; };
+		1A27DA7B037D0CED0AD51440D0984B31 /* DownloadLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownloadLib-dummy.m"; sourceTree = "<group>"; };
 		2D1229F78C1FFBE2F7E8B0A1C450AEF8 /* Pods_DownloadMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DownloadMediator.framework; path = "Pods-DownloadMediator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DB0E047B692302A39841F2C8BF5D89C /* Pods-DownloadMediator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloadMediator-acknowledgements.plist"; sourceTree = "<group>"; };
-		35BAD881FC103BDF23856B2E71107755 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C5BCBCC44789FE4E02C1DE800DAA283 /* FileOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileOperationManager.h; path = DownloadLib/Classes/FileOperationManager.h; sourceTree = "<group>"; };
+		42A8D3FFF9DA31E713813A4100FF0896 /* Pods-DownloadMediator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DownloadMediator-acknowledgements.plist"; sourceTree = "<group>"; };
 		5391BFD0E51BBC64C21C6062D814241B /* NSString+string.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+string.m"; path = "DownloadLib/Classes/NSString+string.m"; sourceTree = "<group>"; };
-		54429FEDDCBD564DEE7511C904590419 /* Pods-DownloadMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadMediator.debug.xcconfig"; sourceTree = "<group>"; };
-		545C9354F08A0409C4507112E3ADDE18 /* Pods-DownloadMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DownloadMediator.modulemap"; sourceTree = "<group>"; };
-		59DDED29084BD2B77A91FB741A7286A1 /* Pods-DownloadMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownloadMediator-dummy.m"; sourceTree = "<group>"; };
+		58E86B7D2F984FF6FD734E680982D1BF /* DownloadLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DownloadLib.modulemap; sourceTree = "<group>"; };
+		590F2415FAB67EEB3D0CF80DC1FDD63E /* Pods-DownloadMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloadMediator-umbrella.h"; sourceTree = "<group>"; };
 		5B192D459818CE7B61EE06E577911061 /* DownloadLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DownloadLib.framework; path = DownloadLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D190C2DA7814C679C041E54D1FE5574 /* Pods-DownloadMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadMediator.debug.xcconfig"; sourceTree = "<group>"; };
+		6F8E43F1253940DC4B0161BCB4DB6AFD /* DownloadLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloadLib-umbrella.h"; sourceTree = "<group>"; };
 		70B2C4F53FBAB546A938CACC43318635 /* FileOperationTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FileOperationTask.m; path = DownloadLib/Classes/FileOperationTask.m; sourceTree = "<group>"; };
+		7696016B68D16C2C174FAFB138843B29 /* Pods-DownloadMediator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadMediator-resources.sh"; sourceTree = "<group>"; };
+		7E3E204E4DEAFD1CDB4F19611F61029B /* Pods-DownloadMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DownloadMediator-dummy.m"; sourceTree = "<group>"; };
 		800242771EA0C22B8BA5036BEFD42C36 /* FileOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FileOperationManager.m; path = DownloadLib/Classes/FileOperationManager.m; sourceTree = "<group>"; };
-		8526708551F9456BDD91F824609997EA /* DownloadLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DownloadLib.modulemap; sourceTree = "<group>"; };
+		859B8CD4090246E1295F3ABF5A38128B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC8D33AF8A8BDC67313E851883E7301 /* NSString+string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+string.h"; path = "DownloadLib/Classes/NSString+string.h"; sourceTree = "<group>"; };
-		8E3BD208019C821DB7AEBB058B3A05C5 /* Pods-DownloadMediator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadMediator-frameworks.sh"; sourceTree = "<group>"; };
+		9181084BFA2A915BAC01FB41AA9549A2 /* Pods-DownloadMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DownloadMediator.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95591869347721F6CFBE519B8E7C5DD7 /* Pods-DownloadMediator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownloadMediator-acknowledgements.markdown"; sourceTree = "<group>"; };
-		97443EE237BCBC22A5BADFBE3BE80AEE /* DownloadLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownloadLib-dummy.m"; sourceTree = "<group>"; };
 		9FD40571FE4BF3F998277D0472C55A1C /* FileOperationTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FileOperationTool.m; path = DownloadLib/Classes/FileOperationTool.m; sourceTree = "<group>"; };
+		ADA59B0B9C916FC2ACFE21148CA37E6F /* DownloadLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloadLib-prefix.pch"; sourceTree = "<group>"; };
+		B112B3EDC2767132871C04E1AC58E8DF /* DownloadLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownloadLib.xcconfig; sourceTree = "<group>"; };
 		B4E1998B53515BD807A4329AD7EDBB29 /* FileInfoItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FileInfoItem.m; path = DownloadLib/Classes/FileInfoItem.m; sourceTree = "<group>"; };
+		B899B65D82A39D04C9EF2BE2C23E5CD6 /* Pods-DownloadMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DownloadMediator.modulemap"; sourceTree = "<group>"; };
 		BB19AAB1E9AC2E04B70B1E09C591D47C /* FileInfoItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileInfoItem.h; path = DownloadLib/Classes/FileInfoItem.h; sourceTree = "<group>"; };
-		D5025785F9AB7B3FF279F6EAB5F4EA44 /* Pods-DownloadMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DownloadMediator-umbrella.h"; sourceTree = "<group>"; };
-		E3D4A3DDDC59D81BA84476CE2EFD165F /* DownloadLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloadLib-umbrella.h"; sourceTree = "<group>"; };
+		DADA77BC98E3F5EDDAC62210F676DDAD /* Pods-DownloadMediator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DownloadMediator-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E46838FEC32EB21D2FCAFCDDE3019054 /* FileOperationTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileOperationTool.h; path = DownloadLib/Classes/FileOperationTool.h; sourceTree = "<group>"; };
-		E83959772712416973FC4207957D7032 /* Pods-DownloadMediator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DownloadMediator-resources.sh"; sourceTree = "<group>"; };
-		EC19EB84A7780ABC3E2AD85DEBDFA539 /* DownloadLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownloadLib-prefix.pch"; sourceTree = "<group>"; };
+		EBDD48AAE04540D317A17B113B1A1D70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,18 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		789FB7727977A19C6DB93854C5DC4B1C /* Support Files */ = {
+		6F34C67C4545844A5987DE88A9A7D393 /* Pods-DownloadMediator */ = {
 			isa = PBXGroup;
 			children = (
-				8526708551F9456BDD91F824609997EA /* DownloadLib.modulemap */,
-				272293E87AEE037AC801251467742F31 /* DownloadLib.xcconfig */,
-				97443EE237BCBC22A5BADFBE3BE80AEE /* DownloadLib-dummy.m */,
-				EC19EB84A7780ABC3E2AD85DEBDFA539 /* DownloadLib-prefix.pch */,
-				E3D4A3DDDC59D81BA84476CE2EFD165F /* DownloadLib-umbrella.h */,
-				35BAD881FC103BDF23856B2E71107755 /* Info.plist */,
+				859B8CD4090246E1295F3ABF5A38128B /* Info.plist */,
+				B899B65D82A39D04C9EF2BE2C23E5CD6 /* Pods-DownloadMediator.modulemap */,
+				DADA77BC98E3F5EDDAC62210F676DDAD /* Pods-DownloadMediator-acknowledgements.markdown */,
+				42A8D3FFF9DA31E713813A4100FF0896 /* Pods-DownloadMediator-acknowledgements.plist */,
+				7E3E204E4DEAFD1CDB4F19611F61029B /* Pods-DownloadMediator-dummy.m */,
+				077202A0BC4F0A3EC01572A8F9A16A75 /* Pods-DownloadMediator-frameworks.sh */,
+				7696016B68D16C2C174FAFB138843B29 /* Pods-DownloadMediator-resources.sh */,
+				590F2415FAB67EEB3D0CF80DC1FDD63E /* Pods-DownloadMediator-umbrella.h */,
+				6D190C2DA7814C679C041E54D1FE5574 /* Pods-DownloadMediator.debug.xcconfig */,
+				9181084BFA2A915BAC01FB41AA9549A2 /* Pods-DownloadMediator.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DownloadLib";
+			name = "Pods-DownloadMediator";
+			path = "Target Support Files/Pods-DownloadMediator";
 			sourceTree = "<group>";
 		};
 		79E8344C02983A8173013C498FBDC69E /* Pods */ = {
@@ -123,7 +127,7 @@
 				9FD40571FE4BF3F998277D0472C55A1C /* FileOperationTool.m */,
 				8DC8D33AF8A8BDC67313E851883E7301 /* NSString+string.h */,
 				5391BFD0E51BBC64C21C6062D814241B /* NSString+string.m */,
-				789FB7727977A19C6DB93854C5DC4B1C /* Support Files */,
+				91B66D81C9DD089BEB927C3ED5EC0B6D /* Support Files */,
 			);
 			name = DownloadLib;
 			path = DownloadLib;
@@ -140,10 +144,24 @@
 			);
 			sourceTree = "<group>";
 		};
+		91B66D81C9DD089BEB927C3ED5EC0B6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58E86B7D2F984FF6FD734E680982D1BF /* DownloadLib.modulemap */,
+				B112B3EDC2767132871C04E1AC58E8DF /* DownloadLib.xcconfig */,
+				1A27DA7B037D0CED0AD51440D0984B31 /* DownloadLib-dummy.m */,
+				ADA59B0B9C916FC2ACFE21148CA37E6F /* DownloadLib-prefix.pch */,
+				6F8E43F1253940DC4B0161BCB4DB6AFD /* DownloadLib-umbrella.h */,
+				EBDD48AAE04540D317A17B113B1A1D70 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DownloadLib";
+			sourceTree = "<group>";
+		};
 		AC82661CC01EBD09ADFDF1FBF9EE4443 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D25ADB70B8F8825458E75C939A9182EE /* Pods-DownloadMediator */,
+				6F34C67C4545844A5987DE88A9A7D393 /* Pods-DownloadMediator */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -163,24 +181,6 @@
 				2D1229F78C1FFBE2F7E8B0A1C450AEF8 /* Pods_DownloadMediator.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D25ADB70B8F8825458E75C939A9182EE /* Pods-DownloadMediator */ = {
-			isa = PBXGroup;
-			children = (
-				0901E0C01D5816D4C8A01C3E0F2FE0F4 /* Info.plist */,
-				545C9354F08A0409C4507112E3ADDE18 /* Pods-DownloadMediator.modulemap */,
-				95591869347721F6CFBE519B8E7C5DD7 /* Pods-DownloadMediator-acknowledgements.markdown */,
-				2DB0E047B692302A39841F2C8BF5D89C /* Pods-DownloadMediator-acknowledgements.plist */,
-				59DDED29084BD2B77A91FB741A7286A1 /* Pods-DownloadMediator-dummy.m */,
-				8E3BD208019C821DB7AEBB058B3A05C5 /* Pods-DownloadMediator-frameworks.sh */,
-				E83959772712416973FC4207957D7032 /* Pods-DownloadMediator-resources.sh */,
-				D5025785F9AB7B3FF279F6EAB5F4EA44 /* Pods-DownloadMediator-umbrella.h */,
-				54429FEDDCBD564DEE7511C904590419 /* Pods-DownloadMediator.debug.xcconfig */,
-				017670905D864B60D22574B646DC7A0A /* Pods-DownloadMediator.release.xcconfig */,
-			);
-			name = "Pods-DownloadMediator";
-			path = "Target Support Files/Pods-DownloadMediator";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -259,8 +259,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -314,69 +314,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6699516DD3AA252A2FCB1B6CCB270890 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54429FEDDCBD564DEE7511C904590419 /* Pods-DownloadMediator.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DownloadMediator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DownloadMediator/Pods-DownloadMediator.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DownloadMediator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		68F369C3962A5B8F2EF1C698CAE2D1FE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 272293E87AEE037AC801251467742F31 /* DownloadLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DownloadLib/DownloadLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DownloadLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DownloadLib/DownloadLib.modulemap";
-				PRODUCT_NAME = DownloadLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,10 +324,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -397,6 +337,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -431,9 +372,71 @@
 			};
 			name = Release;
 		};
+		6699516DD3AA252A2FCB1B6CCB270890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D190C2DA7814C679C041E54D1FE5574 /* Pods-DownloadMediator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DownloadMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DownloadMediator/Pods-DownloadMediator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DownloadMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68F369C3962A5B8F2EF1C698CAE2D1FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B112B3EDC2767132871C04E1AC58E8DF /* DownloadLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DownloadLib/DownloadLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DownloadLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DownloadLib/DownloadLib.modulemap";
+				PRODUCT_NAME = DownloadLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		724DB584030607437BC5FCB39CC4C694 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 272293E87AEE037AC801251467742F31 /* DownloadLib.xcconfig */;
+			baseConfigurationReference = B112B3EDC2767132871C04E1AC58E8DF /* DownloadLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -462,7 +465,7 @@
 		};
 		B470E7CD0AA7CF3385283775FBA3B288 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 017670905D864B60D22574B646DC7A0A /* Pods-DownloadMediator.release.xcconfig */;
+			baseConfigurationReference = 9181084BFA2A915BAC01FB41AA9549A2 /* Pods-DownloadMediator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -493,7 +496,7 @@
 			};
 			name = Release;
 		};
-		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -503,10 +506,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -514,6 +519,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -559,8 +565,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
-				6F9224530522DD3C735EC96CF142642E /* Release */,
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

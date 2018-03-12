@@ -40,7 +40,14 @@ static FileOperationManager *intance;
     }
     return _downLoadInfo;
 }
-- (void)downLoader:(NSURL *)url downloadInfo:(FileDownloadInfoBlock)downloadInfoBlock progress:(FileDownloadProgressBlock)progressBlock state:(FileDownloadStateBlock)stateBlock success:(FileDownloadSuccessBlock)successBlock failed:(FileDownloadFailedBlock)failedBlock {
+- (void)downLoader:(NSDictionary *)params{
+    
+    NSURL *url = params[@"url"];
+    FileDownloadInfoBlock downloadInfoBlock = params[@"infoBlock"];
+    FileDownloadProgressBlock progressBlock = params[@"progressBlock"];
+    FileDownloadStateBlock stateBlock = params[@"stateBlock"];
+    FileDownloadSuccessBlock successBlock = params[@"successBlock"];
+    FileDownloadFailedBlock failedBlock = params[@"failedBlock"];
  
     NSString *urlMD5 = [url.absoluteString md5];
     
@@ -68,7 +75,8 @@ static FileOperationManager *intance;
 }
 
 // 暂停下载
-- (void)pauseDownloadWithURL:(NSURL *)url {
+- (void)pauseDownloadWithURL:(NSDictionary *)params{
+    NSURL *url = params[@"url"];
     NSString *urlMD5 = [url.absoluteString md5];
     FileOperationTask *downLoader = self.downLoadInfo[urlMD5];
     [downLoader pauseCurrentDownloadTask];

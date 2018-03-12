@@ -13,12 +13,12 @@
 
 + (instancetype)sharedIntance;
 
-- (void)downLoader:(NSURL *)url downloadInfo:(FileDownloadInfoBlock)downloadInfoBlock progress:(FileDownloadProgressBlock)progressBlock state:(FileDownloadStateBlock)stateBlock success:(FileDownloadSuccessBlock)successBlock failed:(FileDownloadFailedBlock)failedBlock;
+- (void)downLoader:(NSDictionary *)params;
 
 // 开始下载
 - (void)resumeDownloadWithURL:(NSURL *)url;
 // 暂停下载
-- (void)pauseDownloadWithURL:(NSURL *)url;
+- (void)pauseDownloadWithURL:(NSDictionary *)params;
 // 取消下载
 - (void)cancelDownloadWithURL:(NSURL *)url;
 // 暂停全部
