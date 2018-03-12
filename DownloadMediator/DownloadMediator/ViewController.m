@@ -26,7 +26,7 @@
 - (IBAction)startDowloadAction:(UIButton *)sender {
     
     __weak typeof (self) weakSelf = self;
-    [[Mediator sharedInstance] downLoader:self.url downloadInfo:^(id *fileInfoItem) {
+    [[Mediator sharedInstance] downLoader:self.url downloadInfo:^(id fileInfoItem) {
         
     } progress:^(CGFloat progress) {
         weakSelf.progressView.progress = progress;
