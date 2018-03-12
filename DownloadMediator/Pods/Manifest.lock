@@ -1,0 +1,12 @@
+PODS:
+  - DownloadLib (0.1.0)
+
+DEPENDENCIES:
+  - DownloadLib
+
+SPEC CHECKSUMS:
+  DownloadLib: 8f2955d95946af7831b2554cd0cfd6dddf22490d
+
+PODFILE CHECKSUM: 36be0471dcec675ab397ef617539f7adbb68374f
+
+COCOAPODS: 1.4.0
