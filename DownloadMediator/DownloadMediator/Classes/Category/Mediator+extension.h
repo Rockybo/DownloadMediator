@@ -8,7 +8,17 @@
 
 #import "Mediator.h"
 
+typedef void (^FileDownloadInfoBlock) (id fileInfoItem);
+typedef void (^FileDownloadProgressBlock)(CGFloat progress);
+typedef void (^FileDownloadStateBlock) (NSUInteger state);
+typedef void (^FileDownloadSuccessBlock) (NSString *filePath);
+typedef void (^FileDownloadFailedBlock) (void);
+
+
 @interface Mediator (extension)
 
-- (void)resumeDownloadWithURL:(NSURL *)url;
+- (void)downLoader:(NSURL *)url downloadInfo:(FileDownloadInfoBlock)downloadInfoBlock progress:(FileDownloadProgressBlock)progressBlock state:(FileDownloadStateBlock)stateBlock success:(FileDownloadSuccessBlock)successBlock failed:(FileDownloadFailedBlock)failedBlock;
+
+// 暂停下载
+- (void)pauseDownloadWithURL:(NSURL *)url;
 @end

@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)startDowloadAction:(UIButton *)sender;
+
+- (IBAction)pauseDowloadAction:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIProgressView *progressView;
+@property (weak, nonatomic) IBOutlet UILabel *progressLabel;
 
 @end
 
