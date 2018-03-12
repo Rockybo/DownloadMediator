@@ -10,4 +10,5 @@
 
 @interface Mediator (extension)
 
+- (void)resumeDownloadWithURL:(NSURL *)url;
 @end

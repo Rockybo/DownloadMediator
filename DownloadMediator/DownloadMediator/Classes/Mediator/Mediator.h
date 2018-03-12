@@ -10,5 +10,6 @@
 
 @interface Mediator : NSObject
 
++ (id)sharedInstance;
 - (id)performTarget:(NSString *)targetName action:(NSString *)actionName params:(NSDictionary *)params shouldCacheTarget:(BOOL)shouldCacheTarget;
 @end

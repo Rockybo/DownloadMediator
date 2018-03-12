@@ -10,4 +10,8 @@
 
 @implementation Mediator (extension)
 
+- (void)resumeDownloadWithURL:(NSURL *)url {
+    NSDictionary *param = @{@"url":url};
+    [self performTarget:@"FileOperationManager" action:@"resumeDownloadWithURL:" params:param shouldCacheTarget:NO];
+}
 @end
