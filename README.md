@@ -9,10 +9,10 @@ CTMediator介绍两种方式：1、通过本地组件调用入口 2、通过远�
 1、通过自己的Pod私有库来实现组件化功能
 2、通过Action-target方案实现消息发送
 ### Cocoapods私有库
-一、通过第三方托管平台(coding.net、gitee.com)搭建一个远程私有库索引(XXXSpecs)
-二、创建Pod私有索引库
-pod repo add XXXSpecs SSH地址
-三、创建pod私有库
+###### 1.通过第三方托管平台(coding.net、gitee.com)搭建一个远程私有库索引(XXXSpecs)
+###### 2.创建Pod私有索引库
+	1、pod repo add XXXSpecs SSH地址
+###### 3.创建pod私有库
 	1、创建模板  pod lib create DownloadLib
 	2、拖入代码
 	3、添加git远程仓库关联 git remote add origin 私有库远程地址
