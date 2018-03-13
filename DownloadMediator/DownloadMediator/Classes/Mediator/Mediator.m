@@ -19,7 +19,7 @@ static Mediator *instance;
 @implementation Mediator
 
 + (instancetype)allocWithZone:(struct _NSZone *)zone {
-    if (instance == nil) {
+    if (!instance) {
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken, ^{
             instance = [super allocWithZone:zone];
