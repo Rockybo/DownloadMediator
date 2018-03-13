@@ -13,7 +13,7 @@ CTMediator介绍两种方式：1、通过本地组件调用入口 2、通过远�
 ###### 2.创建Pod私有索引库
 	1、pod repo add XXXSpecs SSH地址
 ###### 3.创建pod私有库
-	1、创建模板  pod lib create DownloadLib
+	1、创建模板  pod lib create XXXLib
 	2、拖入代码
 	3、添加git远程仓库关联 git remote add origin 私有库远程地址
 	4、修改spec
