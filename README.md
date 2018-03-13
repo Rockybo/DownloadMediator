@@ -27,6 +27,8 @@
 	8、远程验证 pod spec lint
 	9、本地索引库提交 pod repo push XXXSpecs XXXLib.podspec
 
+[我的博客地址](https://rockybo.github.io/)
+
 
 
 
