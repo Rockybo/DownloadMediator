@@ -43,18 +43,15 @@ static Mediator *instance;
         target = [[targetClass alloc] init];
     }
     
-    SEL action = NSSelectorFromString(actionName);
-    
     // 是否缓存targe
     if (shouldCacheTarget) {
         self.cachedTarget[targetName] = target;
     }
     
+    SEL action = NSSelectorFromString(actionName);
     // 判断方法
     if ([target respondsToSelector:action]) {
-        
         return [self safePerformAction:action target:target params:params];
-
     }
     return nil;
 
@@ -80,7 +77,6 @@ static Mediator *instance;
         [invocation invoke];
         return nil;
     }
-    
     
     if (strcmp(retType, @encode(NSInteger)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
