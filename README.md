@@ -22,7 +22,7 @@
 	5、提交本地仓库代码到远程仓库
 	6、打标签并且提交标签到远程地址
 		git tag -a '0.1.0'  -m '备份0.1.0'
-		git push --tas
+		git push --tags
 	7、本地验证 pod lib lint (pod lib lint --allow-warnings)
 	8、远程验证 pod spec lint
 	9、本地索引库提交 pod repo push XXXSpecs XXXLib.podspec
